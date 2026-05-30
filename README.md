@@ -4,3 +4,5 @@ SELECT column1, column2
 FROM table_name 
 WHERE condition 
 ORDER BY column1 ASC;
+SELECT * FROM employees 
+WHERE department = 'Sales' AND salary > 50000;
